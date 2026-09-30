@@ -1,31 +1,16 @@
-﻿# VISTRO
+# VISTRO
 
-Vistro is a Sandbox running on Windows/Linux. No setup needed.
+Vistro is a Virtual Machine without a real CPU running. It can run on Windows / Linux.
+## BYTECODE LANGUAGE
 
-## Run
+This is the machine language that can run tasks without using an official language like Python, C, and others.
+This bytecode language is used on:
 
-```
-python Core.py
-```
+* Shell (User Interface for Vistro)
+* Programs (self-explanatory)
 
-## Compile .aplang to .AppCommand
+## FAQ
 
-```
-python bin/appcommand/Compiler.py myapp.aplang myapp.AppCommand
-```
-
-## AppLang source syntax
-
-```
-ARGS args
-ARGLEN argc
-PRINTLN "Hello from Vistro"
-INT x 10
-ADD x x 5
-PRINTLN x
-```
-
-## API
-
-Runs on `http://127.0.0.1:7070`. Login: POST /api/login with `{"username":"admin","password":"admin"}`.
-
+* Is Vistro done? No, nearly done, but we need to fix some bugs and add more features.
+* Does Vistro have a website? Not yet, but coming soon.
+* Is Vistro open source? Yes, but you need to follow the license.
